@@ -19,4 +19,8 @@ class UserEntity {
     this.totalDonated,
     this.projectsSupported,
   });
+
+  Map<String, dynamic> toJson() => _$UserEntityToJson(this);
+  factory UserEntity.fromJson(Map<String, dynamic> json) =>
+      _$UserEntityFromJson(json);
 }
