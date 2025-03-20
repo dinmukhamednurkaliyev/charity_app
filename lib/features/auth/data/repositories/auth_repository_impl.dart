@@ -5,7 +5,6 @@ import 'package:charity_app/features/auth/domain/entities/user_entity.dart';
 import 'package:charity_app/features/auth/domain/repositories/auth_repository.dart';
 import 'package:dio/dio.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 class AuthRepositoryImpl implements AuthRepository {
