@@ -9,6 +9,7 @@ void main() async {
   Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(
     MaterialApp.router(
+      debugShowCheckedModeBanner: false,
       routerConfig: AppRouter.router,
       theme: AppTheme.getTheme(),
     ),
